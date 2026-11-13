@@ -1,0 +1,29 @@
+{
+  "name": "token-saver",
+  "owner": {
+    "name": "Isa Inalcik",
+    "url": "https://isainalcik.dev"
+  },
+  "metadata": {
+    "description": "Hooks, a skill and subagents that cut Claude Code token usage.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "token-saver",
+      "source": "./plugins/token-saver",
+      "description": "Blocks full reads of large files and sends them to Haiku instead, writes a handover file before auto-compaction and loads it back after, and adds cheap runner and reviewer subagents.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "tokens",
+        "cost",
+        "context",
+        "compaction",
+        "handover",
+        "haiku",
+        "subagents"
+      ]
+    }
+  ]
+}

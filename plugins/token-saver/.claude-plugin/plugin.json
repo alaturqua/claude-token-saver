@@ -1,0 +1,21 @@
+{
+  "name": "token-saver",
+  "version": "1.0.0",
+  "description": "Cuts Claude Code context and cost: blocks full reads of large files and sends them to Haiku instead (bulk-read), writes a handover file before auto-compaction and loads it back after, and adds Haiku/Sonnet runner and reviewer subagents.",
+  "author": {
+    "name": "Isa Inalcik",
+    "url": "https://isainalcik.dev"
+  },
+  "repository": "https://github.com/alaturqua/claude-token-saver",
+  "license": "Apache-2.0",
+  "keywords": [
+    "tokens",
+    "cost",
+    "context",
+    "compaction",
+    "handover",
+    "haiku",
+    "subagents"
+  ],
+  "homepage": "https://github.com/alaturqua/claude-token-saver"
+}
