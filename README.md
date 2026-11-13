@@ -1,5 +1,9 @@
 # claude-token-saver
 
+[![Sponsor](https://img.shields.io/github/sponsors/alaturqua?label=Sponsor&logo=githubsponsors&color=ea4aaa)](https://github.com/sponsors/alaturqua)
+[![License](https://img.shields.io/github/license/alaturqua/claude-token-saver)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/alaturqua/claude-token-saver?style=social)](https://github.com/alaturqua/claude-token-saver)
+
 A Claude Code plugin that cuts context use and cost:
 
 - **Read-size guard** (PreToolUse hook): blocks a full `Read` of text files over 400 lines and bare `cat`/`Get-Content` dumps. Claude is told to read a line range or use `bulk-read`.
