@@ -76,7 +76,7 @@ More of my open source work:
 - [trino-ai](https://github.com/alaturqua/trino-ai): LLM calls as Trino SQL functions.
 - [dbt-hodor](https://github.com/alaturqua/dbt-hodor): rebuild only the dbt nodes whose code or upstream data changed.
 
-If this saves you tokens, a star on the repo helps others find it.
+If this saves you tokens, a star helps others find it, and [sponsoring me on GitHub](https://github.com/sponsors/alaturqua) keeps it maintained.
 
 ## License
 
