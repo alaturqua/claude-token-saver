@@ -66,6 +66,7 @@ node plugins/token-saver/hooks/handover.test.js
 
 - `bulk-read` does not use `claude -p --bare`, because `--bare` only accepts `ANTHROPIC_API_KEY` and fails with a subscription login. It uses `--setting-sources "" --strict-mcp-config` instead.
 - Haiku's price jumps above about 100K prompt tokens, so `bulk-read` caps input at about 380K characters. Split larger sets into several calls.
+- Works with [Code Mode](https://code.claude.com/docs/en/code-mode). Every hook is set to `onFailure: continue`, so a slow or failed hook never refuses a tool call that Claude's code makes.
 - Don't rely on Haiku for debugging, security or review decisions. Read the relevant lines yourself.
 
 ## About the author
